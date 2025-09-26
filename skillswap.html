@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skill Swap</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Skill Swap</h1>
+    <p>Share what you know, learn what you love. No money, just mutual growth.</p>
+  </header>
+
+  <!-- 🟢 Nav with Sign Up & Login Buttons on Right -->
+  <nav>
+    <div class="nav-left">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="nav-right">
+      <button class="signup-btn">Sign Up</button>
+      <button class="login-btn">Login</button>
+    </div>
+  </nav>
+
+  <main>
+    <h2>About Skill Swap</h2>
+    <p>
+      SkillSwap is a peer-to-peer skill exchange platform that allows users especially students
+      to teach and learn skills from each other. Instead of paying for classes, users can exchange
+      skills. It’s a community-driven learning ecosystem
+      that encourages sharing of knowledge, time, and effort. 
+    </p>
+    <h2>More about Skill Swap
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Skill Swap. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript to Load Profile Image -->
+  <script>
+    function loadProfile(event) {
+      const image = document.getElementById('profileImage');
+      image.src = URL.createObjectURL(event.target.files[0]);
+    }
+  </script>
+
+</body>
+</html>
+
+  
